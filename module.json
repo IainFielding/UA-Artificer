@@ -64,5 +64,7 @@
                 "Compendium.unearthed-arcana-the-artificer-2025.spell-list.JournalEntry.OYJGzfMTF0kOdzOT.JournalEntryPage.2dpJ0lCtEXTs7iHH"
       ]
     }
-  }
+  },
+  "download": "https://github.com/IainFielding/UA-Artificer/releases/latest/download/module.zip",
+  "manifest": "https://github.com/IainFielding/UA-Artificer/releases/latest/download/module.json"
 }
