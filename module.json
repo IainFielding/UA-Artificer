@@ -1,7 +1,7 @@
 {
   "id": "unearthed-arcana",
   "title": "Unearthed Arcana",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -124,7 +124,7 @@
         "UA Artificer": "UA.Artificer"
       },
       "spellLists": [
-                "Compendium.unearthed-arcana-the-unearthed-arcana.spell-list.JournalEntry.OYJGzfMTF0kOdzOT.JournalEntryPage.2dpJ0lCtEXTs7iHH"
+                "Compendium.unearthed-arcana.content.JournalEntry.l89HZPrpbInraxJb.JournalEntryPage.P8IyP95t5izqkCiG"
       ]
     }
   },
