@@ -1,7 +1,7 @@
 {
-  "id": "unearthed-arcana-the-artificer-2025",
-  "title": "Unearthed Arcana The Artificer 2025",
-  "version": "1.0.0",
+  "id": "unearthed-arcana",
+  "title": "Unearthed Arcana",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -31,9 +31,9 @@
   },
   "packs": [
     {
-      "name": "spell-list",
-      "label": "Spell List",
-      "path": "packs/spell-list",
+      "name": "content",
+      "label": "Unearthed Arcana",
+      "path": "packs/content",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -43,9 +43,9 @@
       "flags": {}
     },
     {
-      "name": "the-artificer-2025",
-      "label": "The Artificer 2025",
-      "path": "packs/the-artificer-2025",
+      "name": "classes",
+      "label": "Character Classes",
+      "path": "packs/classes",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -53,15 +53,78 @@
       },
       "system": "dnd5e",
       "flags": {}
-    }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+  },
+  {
+      "name": "tables",
+      "label": "Roll Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+  },
+  {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+  }
   ],
+  "packFolders": [
+    {
+        "name": "Unearthed Arcana",
+        "color": "#1e72cc",
+        "sorting": "m",
+        "packs": [
+            "content",
+            "classes",
+            "spells",
+            "tables",
+            "actors",
+            "equipment"
+        ]
+    }
+],
   "flags": {
     "dnd5e": {
       "sourceBooks": {
         "UA Artificer": "UA.Artificer"
       },
       "spellLists": [
-                "Compendium.unearthed-arcana-the-artificer-2025.spell-list.JournalEntry.OYJGzfMTF0kOdzOT.JournalEntryPage.2dpJ0lCtEXTs7iHH"
+                "Compendium.unearthed-arcana-the-unearthed-arcana.spell-list.JournalEntry.OYJGzfMTF0kOdzOT.JournalEntryPage.2dpJ0lCtEXTs7iHH"
       ]
     }
   },
